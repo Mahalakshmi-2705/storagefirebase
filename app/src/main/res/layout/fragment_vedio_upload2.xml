@@ -1,0 +1,36 @@
+<!-- fragment_video_upload.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:padding="16dp"
+    tools:context=".VedioUploadFragment">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="35dp" />
+
+    <Button
+        android:id="@+id/selectVideoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/videoView"
+        android:backgroundTint="@color/dark"
+        android:text="Select Video" />
+
+    <Button
+        android:id="@+id/uploadVideoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectVideoButton"
+        android:layout_marginTop="10dp"
+        android:text="Upload Video"
+        android:backgroundTint="@color/dark"
+        android:enabled="false" />
+</RelativeLayout>

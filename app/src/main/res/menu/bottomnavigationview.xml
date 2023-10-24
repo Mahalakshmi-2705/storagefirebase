@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_image_upload"
+        android:title="Image Upload"
+        android:icon="@drawable/baseline_image_search_24" />
+    <item
+        android:id="@+id/navigation_video_upload"
+        android:title="Video Upload"
+        android:icon="@drawable/baseline_video_file_24" />
+</menu>
